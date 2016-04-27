@@ -1,0 +1,300 @@
+@import "partials/functions";
+@import "partials/mixins";
+@import "partials/variables";
+
+@include google-font("Open+Sans");
+@include google-font("Oswald");
+@include google-font("Pacifico");
+
+
+html {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0;
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  display: inline-block;
+  float: left;
+}
+
+.navBar {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  font-weight: bold;
+  color: $blue;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+    button {
+      float: right;
+      width: 75px;
+      height: 50px;
+      background-color: $blue;
+      margin-right: 5px;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-weight: bold;
+      border:none;
+      display:block;
+    }
+
+      a {
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+    }
+        
+}
+
+button.active {
+  background-color: lightgray;
+}
+
+.line-separator {
+  margin-top: 50px;
+  height: 1px;
+  background: #C2C2C2;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+.line-separator2 {
+  margin-top: 50px;
+  height: 1px;
+  background: #C2C2C2;
+  border-bottom: 1px solid #C2C2C2;
+}
+
+.clear {
+  clear: both;
+}
+
+.footerText {
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #CACACA;
+  font-weight: bold;
+   
+}
+ .footerImg {
+      float: right;
+      list-style: none;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footerImg a {
+      text-decoration: none;
+      color: #CACACA;
+    }
+
+.projectList {
+  float:left;
+}
+
+.ops img {
+  max-width: 300px;
+}
+
+.ops p {
+  color: #81C7CD;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ops a {
+  text-decoration: none;
+}
+
+.pageTitle {
+  font-family: 'Oswald', sans-serif;
+  color: #CACACA;
+}
+
+.headerText {
+  font-family: 'Open Sans', sans-serif;
+  color: #CACACA;
+  font-weight: bold;
+}
+
+.headerText a {
+  color: #E3B9E0;
+}
+
+.headerText a :visited {
+          text-decoration: none;
+          font-weight: bold;
+          color: $blue;
+        }
+
+.leftShark {
+  float: left;
+  max-width: 400px;
+  color: #CACACA;
+}
+
+.rightShark {
+  float: right;
+  max-width: 400px;
+  color: #CACACA;
+  overflow: hidden;
+}
+
+.mostRecent a {
+  text-decoration: none;
+}
+
+.readMore {
+  background-color: #81C7CD;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+.readMore a {
+  text-decoration: none;
+}
+
+.readMore a :visited {
+  text-decoration: none;
+  color: white;
+}
+
+.latestProjectImg {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+div.leftShark a {
+  text-align: center;
+  color: #81C7CD;
+}
+
+div.rightShark h3 {
+  color: #81C7CD;
+}
+
+.aboutText h2 {
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.aboutText p {
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.aboutText ul {
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+  list-style: none;
+
+}
+
+.aboutText a {
+  color: #81C7CD;
+  text-decoration: none;
+}
+
+.recentPostsContent {
+  float: left;
+  max-width: 512px;
+}
+
+.recentPostsContent h2 {
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.mostRecent h2 {
+  margin-top: 50px;
+  color: #81C7CD;
+  font-family: 'Oswald', sans-serif;
+}
+
+.mostRecent a {
+  text-decoration: none;
+  color: white;
+}
+
+.mostRecent small {
+  color: #C2C2C2;
+}
+
+.recentPostLinks {
+  float: right;
+  max-width: 512px;
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.recentPostLinks a {
+  text-decoration: none;
+  color: #81C7CD;
+}
+
+.recentPostLinks ul {
+  list-style: none;
+}
+
+.postCategories h2 {
+  margin-top: 50px;
+  color: #C2C2C2;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  max-width: 512px;
+}
+
+.tag {
+  background-color: #E3B9E0;
+  color: white;
+  padding-right: 2px;
+}
+
+.content p {
+  color: #C2C2C2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content a {
+  color: #81C7CD;
+  text-decoration: none;
+}
+
+.project {
+  margin-top: 50px;
+}
+
+.projectImage {
+  float: left;
+
+}
+
+.projectImage a {
+  text-decoration: none;
+  color: #81C7CD;
+  font-weight: bold;
+}
+
+.projectImage img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.projectText {
+  float: right;
+  max-width: 512px;
+}
+
+.projectText ul {
+  list-style: none;
+}

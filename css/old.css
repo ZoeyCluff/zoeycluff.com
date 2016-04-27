@@ -1,0 +1,139 @@
+@import "init.css";
+.headerText {
+    font-family: 'Open Sans', sans-serif;
+    color: #CACACA;
+    font-weight: bold;
+}
+
+.headerText a {
+    color: #E3B9E0;
+}
+
+.leftShark {
+    float: left;
+    max-width: 400px;
+    color: #CACACA;
+}
+
+.rightShark {
+    float: right;
+    max-width: 400px;
+    color: #CACACA;
+    overflow: hidden;
+}
+
+.mostRecent a {
+    text-decoration: none;
+}
+
+.readMore {
+    background-color: #81C7CD;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    border: none;
+    display: block;
+    text-decoration: none;
+}
+
+.line-separator2 {
+    margin-top: 50px;
+    height: 1px;
+    background: #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.latestProjectImg {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+div.leftShark a {
+    text-align: center !important;
+    color: #81C7CD !important;
+}
+
+div.rightShark h3 {
+    color: #81C7CD !important;
+}
+
+.aboutText h2 {
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutText p {
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutText ul {
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+}
+
+.aboutText a {
+    color: #81C7CD;
+    text-decoration: none;
+}
+
+.recentPostsContent {
+    float: left;
+    max-width: 512px;
+}
+
+.recentPostsContent h2 {
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mostRecent h2 {
+    margin-top: 50px;
+    color: #81C7CD;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mostRecent a {
+    text-decoration: none;
+    color: white;
+}
+
+.mostRecent small {
+    color: #C2C2C2;
+}
+
+.recentPostLinks {
+    float: right;
+    max-width: 512px;
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.recentPostLinks a {
+    text-decoration: none;
+    color: #81C7CD;
+}
+
+.recentPostLinks ul {
+    list-style: none;
+}
+
+.postCategories h2 {
+    margin-top: 50px;
+    color: #C2C2C2;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    max-width: 512px;
+}
+
+.tag {
+    background-color: #E3B9E0;
+    color: white;
+    padding-right: 2px;
+}
+
+.content p {
+    color: #C2C2C2;
+    font-family: 'Open Sans', sans-serif;
+}
