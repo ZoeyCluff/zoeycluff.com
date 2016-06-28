@@ -237,4 +237,14 @@ div.rightShark h3 {
 .projectText ul {
   list-style: none; }
 
+.maadTechnology img {
+  max-width: 300px; }
+
+.maadTechnology p {
+  color: #81C7CD;
+  font-family: 'Open Sans', sans-serif; }
+
+.maadTechnology a {
+  text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
